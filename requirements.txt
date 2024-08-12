@@ -1,3 +1,4 @@
 nlpaug
 nltk
 transformers
+flake8
