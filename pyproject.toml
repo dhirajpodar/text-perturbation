@@ -8,7 +8,7 @@ readme = "README.md"
 
 # Specify packages here
 packages = [
-    { include = "src/dhirajpodar/perturbate" }
+    { include = "src/dhirajpodar/text_perturbation" }
 ]
 
 [tool.poetry.dependencies]
