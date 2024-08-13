@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "text_perturbation"
-version = "0.1.2"
+version = "0.1.3"
 description = "This project is about the NLP task for text perturbation using different methods."
 authors = ["dhirajpoddar <dhirajpodar@gmail.com>"]
 license = "MIT"

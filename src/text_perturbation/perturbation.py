@@ -3,7 +3,6 @@
 import random
 import secrets
 import string
-from pathlib import Path
 
 import nlpaug.augmenter.char as nac
 import nlpaug.augmenter.word as naw
@@ -13,15 +12,13 @@ from transformers import M2M100ForConditionalGeneration
 from transformers import M2M100Tokenizer
 from transformers import pipeline
 
-
-
-from helper import detokenize
-from helper import device
-from helper import get_hypernyms
-from helper import get_synonyms
-from helper import remove_punctuations
-from helper import remove_stopwords
-from helper import swap_char
+from .helper import detokenize
+from .helper import device
+from .helper import get_hypernyms
+from .helper import get_synonyms
+from .helper import remove_punctuations
+from .helper import remove_stopwords
+from .helper import swap_char
 
 
 
