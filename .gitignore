@@ -1,5 +1,5 @@
 src/components/test.py
-tests/
+test.py
 token.txt
 
 .ipynb_checkpoints/
